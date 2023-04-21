@@ -7,7 +7,7 @@ class RetentionChecker
   AVALIABLE_PLANS = %w[standard gold platinum]
   DAYS_TO_RETAIN = 42
   MONTHS_TO_RETAIN = 12
-  YEARS_TO_MANTAIN = 7
+  YEARS_TO_RETAIN = 7
 
   def initialize(plan:, date:)
     @plan = plan
@@ -27,7 +27,7 @@ class RetentionChecker
   def should_retain_for_platinum?
     return should_retain_for_gold? unless @date == @date.end_of_year
 
-    return true if Date.today <= @date + YEARS_TO_MANTAIN.years
+    return true if Date.today <= @date + YEARS_TO_RETAIN.years
 
     false
   end

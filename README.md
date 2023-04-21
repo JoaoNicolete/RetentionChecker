@@ -20,7 +20,7 @@
 ## Testing
   Tests are implemented on `retention_plan/spec/services/retention_checker_spec.rb`
 
-  To run it, just run: `rspec retention_plan/spec/services/retention_checker_spec.rb`
+  To run it, just run: `rspec spec/services/retention_checker_spec.rb`
 
 
 
