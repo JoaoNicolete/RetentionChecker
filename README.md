@@ -18,9 +18,9 @@
   It will return 'retain' when the snapshot should be retained and 'delete' when it should be deleted.
 
 ## Testing
-  Tests are implemented on `retention_plan/spec/retention_checker_spec.rb`
+  Tests are implemented on `retention_plan/spec/services/retention_checker_spec.rb`
 
-  To run it, just run: `rspec retention_plan/spec/retention_checker_spec.rb`
+  To run it, just run: `rspec retention_plan/spec/services/retention_checker_spec.rb`
 
 
 
