@@ -97,7 +97,7 @@ RSpec.describe RetentionChecker do
     context 'when plan is gold' do
       let(:plan) { 'gold' }
 
-      context 'when it is the last snapshot of the of the month' do
+      context 'when it is the last snapshot of the month' do
         include_examples 'gold scenario'
       end
 
